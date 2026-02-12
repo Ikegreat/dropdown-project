@@ -11,25 +11,39 @@
 
 </head>
 <body>
-<nav>
-  <div class="left-nav">
-    
-    <ul>
-      <li id="snap-txt"><h3>Snap</h3></li>
-      <li id="hide">Features  <img src="/images/icon-arrow-down.svg" alt=""></li>
-      <li id="hide">Company <img src="/images/icon-arrow-down.svg" alt=""></li>
-      <li id="hide">Career <img src="/images/icon-arrow-down.svg" alt=""></li>
-      <li id="hide">About <img src="/images/icon-arrow-down.svg" alt=""></li>
-    </ul>
-  </div>
-  <div class="right-nav">
-    <ul>
-      <li id="hide">Login</li>
-      <button class="registerBtn" id="hide"">Register</button>
-      <img src="/images/icon-menu.svg" alt="" id="hide1">
-    </ul>
-  </div>
-</nav>
+  <header id="mobile-header">
+    <div class="left-header">
+      <img src="images/logo.svg" alt="">
+    </div>
+
+    <div class="right-header">
+      <button id="openBtn">
+        <img src="images/icon-menu.svg" alt="">
+      </button>
+      
+          <div id="parentMenu">
+            <div id="childMenu">
+              <button id="closeBtn">
+                <img src="images/icon-close-menu.svg" alt="">
+              </button>
+              <ul>
+                <li>Features<span><img src="images/icon-arrow-down.svg" alt=""></span></li>
+                <li>Company<span><img src="images/icon-arrow-down.svg" alt=""></span></li>
+                <li>Career</li>
+                <li>About</li>
+                <div id="auth">
+                 <span>Login</span>
+                 <div id="regBtn">
+                  Register
+                 </div>
+                </div>
+              </ul>
+            </div>
+          </div>
+    </div>
+  </header>
+
+
 <div class="hero-section">
   <div class="image-hero">
     <img src="/images/image-hero-mobile.png" alt="" id="mobile-img">
@@ -42,7 +56,6 @@
        location. Streamline processes. 
       create <br>
        team rituals. and watch productivity soar.
-
     </article>
     <button id="learn">Learn More</button>
     <div class="icon-texts">
@@ -51,41 +64,8 @@
       <img src="images/client-meet.svg" alt="">
       <img src="/images/client-maker.svg" alt="">
     </div>
-    
-
-
-
-
   </div>
-
-
-
-
-
-
-
-
-
 </div>
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   <script src="index.js"></script>
 </body>
 </html>
