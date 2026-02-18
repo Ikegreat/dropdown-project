@@ -285,7 +285,7 @@ article {
        
        margin-top: 20px;
       
-       display: noneh;
+       display: none;
        position:fixed;
        top: 20px;
        left: 100px;
@@ -307,7 +307,7 @@ article {
          position: fixed;
          top: 45px;
          left: 250px;
-         display: nonev;
+         display: none;
          span {
             display: flex;
             align-items: center;
