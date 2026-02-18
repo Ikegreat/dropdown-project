@@ -75,11 +75,13 @@ header {
     margin: 0 20px;
 }
 #auth {
-    margin-top: 30px;
+    margin-top: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin-left: -50px;
+    
     span {
         margin-bottom: 20px;
     }
@@ -90,7 +92,28 @@ header {
     border-radius: 12px;
     width: 70%;
     text-align: center;
-    margin: 0 auto;
+    
+   
+    
+}
+#mobile-feature-dropdown {
+    span {
+        
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        gap: 15px;
+        
+    }
+}
+#mobile-company-dropdown {
+    span {
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        
+    }
+
 }
 #desktop-header {
     display: none;
@@ -218,7 +241,7 @@ article {
     }
     .text-area {
       order: 1;
-      margin-top: 90px;
+      margin-top: 140px;
       text-align: left;
       h1 {
         width: 70%;
@@ -259,10 +282,10 @@ article {
        background-color: white;
        border-radius: 13px;
        box-shadow: 2px 3px 12px 2px grey;
-       padding: 3px;
+       
        margin-top: 20px;
       
-       display: nonew;
+       display: noneh;
        position:fixed;
        top: 20px;
        left: 100px;
@@ -271,10 +294,26 @@ article {
     #feature-dropdown span {
         display: flex;
         align-items: center;
-        padding: 7px 5px;
+        padding: 7px;
     }
     #feature-dropdown img {
         margin: 0 5px;
+    }
+    #company-dropdown {
+        background-color: white;
+        
+        border-radius: 12px;
+         box-shadow: 2px 3px 12px 2px grey;
+         position: fixed;
+         top: 45px;
+         left: 250px;
+         display: nonev;
+         span {
+            display: flex;
+            align-items: center;
+            padding: 7px 10px;
+         }
+        
     }
    
    
