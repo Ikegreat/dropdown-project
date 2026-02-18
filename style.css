@@ -12,7 +12,8 @@
 body {
     font-family: Great1;
     padding: 20px;
-    display: block;
+    display: grid;
+    grid-template-columns: auto;
 }
 header {
     display: flex;
@@ -43,22 +44,18 @@ header {
     right: 0;
     height: 100vh;
     z-index: 1000;
-  
     display: none;
-     
-    
 }
 #parentMenu.active {
     display: block;
-   
 }
 #childMenu {
      width: 100%;
     min-width: 300px;
     height: 150%;
-    background: wheat;
+    background: white;
+    box-shadow: black 2px 10px 17px 4px;
     padding: 20px;
-   
     ul {
         margin-top: 20px;
         list-style: none;
