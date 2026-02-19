@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+     -webkit-tap-highlight-color: transparent;
 }
 @font-face {
     font-family: Great1;
@@ -106,6 +107,8 @@ header {
         align-items: center;
         padding: 10px;
         gap: 15px;
+         user-select: none;              /* Prevent text selection */
+        -webkit-tap-highlight-color: transparent;  /* Remove blue tap flash */
         
     }
 }
@@ -115,6 +118,8 @@ header {
         display: flex;
         align-items: center;
         padding: 10px;
+         user-select: none;              /* Prevent text selection */
+        -webkit-tap-highlight-color: transparent;  /* Remove blue tap flash */
     
         
     }
