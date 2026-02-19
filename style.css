@@ -23,6 +23,7 @@ header {
 #openBtn {
     border: 0;
     background-color: transparent;
+    cursor: pointer;
     img {
         width: 40px;
         margin-bottom: 10px;
@@ -31,6 +32,7 @@ header {
 #closeBtn {
     border: 0;
     background-color: transparent;
+    cursor: pointer;
     img {
         width: 25px;
     
@@ -97,6 +99,7 @@ header {
     
 }
 #mobile-feature-dropdown {
+    display: none;
     span {
         
         display: flex;
@@ -107,10 +110,12 @@ header {
     }
 }
 #mobile-company-dropdown {
+    display: none;
     span {
         display: flex;
         align-items: center;
         padding: 10px;
+    
         
     }
 
