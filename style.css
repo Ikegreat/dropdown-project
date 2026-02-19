@@ -83,7 +83,7 @@ header {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-left: -50px;
+    margin-left: -10px;
     
     span {
         margin-bottom: 20px;
