@@ -9,6 +9,7 @@ const featureHeadDesktop = document.querySelector("#feature-head");
 const featureDropdown = document.querySelector("#feature-dropdown")
 const companyHeadDesktop = document.querySelector("#company-head");
 const companyDropdownDesktop = document.querySelector("#company-dropdown")
+
 openBtn.addEventListener("click", () => {
     parentMenu.classList.add("active");
     // openBtn.style.display = "none";
